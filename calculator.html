@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>index.html</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="main.css"/>
+	</head>
+	<body>
+	<header>
+		<div>
+			<a href="index.html">
+			<img src="webLogo.jpg" alt="logotype" width='200'
+			height="100"/>
+			</a>
+			<h1>Основы Web-технологий</h1>
+			<nav>
+				<ul class="menu">
+						<li><a href="index.html"> Главная</a></li>
+						<li><a href="technologies.html">Web-технологии</a>
+						<ul class="submenu">
+						<li><a href="html5.html">HTML5</a></li>
+						<li><a href="css.html">CSS3</a></li>
+						<li><a href="javaScript.html">JavaScript</a></li>
+						</ul></li>
+						<li><a href="calculator.html">Калькулятор</a></li>
+						<li><a href="test.html">Тест</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div class="calc">
+			<form name="calcul" class="calcul">
+				<table>
+					<tbody>
+						<tr>
+							<td colspan="5" class="result">
+							<input id="res" type="text" name="res">
+							</td>
+						</tr>
+						<tr>
+							<td><button type="button" value="7">7</button></td>
+							<td><button type="button" value="8">8</button></td>
+							<td><button type="button" value="9">9</button></td>
+							<td><button type="button" value="/">/</button></td>
+							<td><button type="reset" value="C">C</button></td>
+						</tr>
+						<tr>
+							<td><button type="button" value="4">4</button></td>
+							<td><button type="button" value="5">5</button></td>
+							<td><button type="button" value="6">6</button></td>
+							<td><button type="button" value="*">*</button></td>
+							<td><button type="button" value="±">±</button></td>
+						</tr>
+						<tr>
+							<td><button type="button" value="1">1</button></td>
+							<td><button type="button" value="2">2</button></td>
+							<td><button type="button" value="3">3</button></td>
+							<td><button type="button" value="-">-</button></td>
+							<td class="total" rowspan="2"><button class="tot" type="button" value="=">=</button></td>
+						</tr>
+						<tr>
+							<td colspan="2"><button class="zero" type="button" value="0">0</button></td>
+							<td><button type="button" value=".">.</button></td>
+							<td><button type="button" value="+">+</button></td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</div>	
+    </main>
+	<footer>
+		<div class="contacts">
+			<address>
+			<a href="mailto:dimoha122@gmail.com">dimoha122@gmail.com</a>
+			</address>
+			<p>&copy; Шеховцов Д.А., 2016 год</p>
+		</div>
+	</footer>	
+	</body>
+
+</html>
